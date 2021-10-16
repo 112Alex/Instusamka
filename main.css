@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Lirica";
+    src: url("E:/Lirica/Lirica.otf") format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+body {
+    background-image: "AS.png";
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-style: ultra-expanded;
+}
+
+h1 {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.AS {
+    width: 1080px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.citata {
+    text-align: center;
+    font-size: 200%;
+}
+
+a {
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+
+}
+
+a:hover { /* основные свойства всех ссылок */
+    text-decoration: underline;
+}
+a:active { /* сылки при наведении на них */
+    color: white;
+}
+a:visited { /* ссылки после посещения */
+    color: rgb(104, 104, 104);
+}
